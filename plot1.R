@@ -7,3 +7,5 @@ emission_sums <- rowsum(NEI$Emissions, as.factor(NEI$year))
 png("plot1.png", width=480, height=480)
 plot(rownames(emission_sums), emission_sums, main="United States - All Sources", xlab="Year", ylab="Total Emission from PM25", pch=8)
 dev.off()
+
+## Emissions in the United States decreased significantly from 1999 - 2008.
