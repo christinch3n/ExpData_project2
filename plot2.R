@@ -1,5 +1,3 @@
-setwd("C:/Users/Christine/Documents/git-repositories/courseradatascience/ExpData_project2")
-
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 
